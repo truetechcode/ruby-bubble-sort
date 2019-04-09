@@ -3,7 +3,7 @@
 def bubble_sort(arr)
   l = arr.length
   swapped = true
-  while swapped do
+  while swapped
     swapped = false
     (l - 1).times do |i|
       if arr[i] > arr[i + 1]
@@ -21,7 +21,7 @@ end
 def bubble_sort_by(arr)
   l = arr.length
   swapped = true
-  while swapped do
+  while swapped
     swapped = false
     (l - 1).times do |i|
       if yield([arr[i], arr[i + 1]]) > 0
