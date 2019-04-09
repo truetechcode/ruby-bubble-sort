@@ -1,2 +1,3 @@
-# ruby-bubble-sort
-This is an implementation of the bubble sort algothym in ruby.
+# Ruby Bubble Sort Algorithm
+
+This is an implementation of the bubble sort algorithm in ruby.
